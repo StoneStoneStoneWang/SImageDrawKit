@@ -1,0 +1,16 @@
+PODS:
+  - SToolsKit (0.0.2)
+
+DEPENDENCIES:
+  - SToolsKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SToolsKit
+
+SPEC CHECKSUMS:
+  SToolsKit: 624c59c6e9b2bdc159937e5a1552719041fc1e00
+
+PODFILE CHECKSUM: 8d681d3ba5a4a212cbf065b67fafa47fb6632606
+
+COCOAPODS: 1.6.0.beta.2

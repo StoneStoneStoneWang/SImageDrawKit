@@ -1,0 +1,6 @@
+module SToolsKit {
+  umbrella header "SToolsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

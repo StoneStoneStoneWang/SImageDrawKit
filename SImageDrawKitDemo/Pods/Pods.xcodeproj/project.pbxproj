@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05E4B2AA8537012496BBDC1FD7C78B8F /* SToolsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B46CDEECFDBCDD36C4C4A1EEF3AE2B /* SToolsKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D4C2EDD9C7814FF5FD0630BF3C8AD06 /* SToolsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A892662A7BFC671F332860100D2B41 /* SToolsKit-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E0846CCC36B5359C87A37A8391BA97F /* NSString+SValid.h in Headers */ = {isa = PBXBuildFile; fileRef = 47459E59B0A3E3B730B27DFCC8319DAF /* NSString+SValid.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3F9DBACA8BD0D0BC278C28274AD9C655 /* NSDate+STimeStamp.h in Headers */ = {isa = PBXBuildFile; fileRef = 62829F9C0B1003B224BDD0E5A4B58692 /* NSDate+STimeStamp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		452BC5808E2BD9FB416CD5B9FF59F54C /* NSDate+STimeStamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F75BD170A569FC38FF4757A3014F275 /* NSDate+STimeStamp.m */; };
+		48324DECF42230BB370F90B0C5E64A9D /* SToolsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F55B3A66F0E23F4B066DC9A2290386 /* SToolsKit-dummy.m */; };
+		5413E8491F537CFB8F96428F4BEA454E /* Pods-SImageDrawKitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8882F35F132C332FE24091F471ECEBE9 /* Pods-SImageDrawKitDemo-dummy.m */; };
+		6C755B24E89A5B5FC7EFF47B64776AE0 /* NSString+SEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = 650801137BDA4FD112FEC88B6A446C14 /* NSString+SEmpty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7AAFE5747CA0A2FFBA0001014175BFB6 /* UIImage+SImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9960995574E4DA87B15BFC51114A2861 /* UIImage+SImageUtil.m */; };
+		822298382DB589F696564E5221F5F7F0 /* SCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = BF83057B0483F884989B788C4B813CBD /* SCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		829ECE26D43E81A138080CE7E14E1F25 /* UIImage+SImageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B34CE796928E9550B1812D6357A3C4E /* UIImage+SImageUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9EF33BDAB198924848B8AEC4F2B23649 /* UINavigationBar+SBackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEE8385D4716AD100364CFEFFE0FAAE /* UINavigationBar+SBackgroundColor.m */; };
+		C9F1D46D86775E0ED7D4C0B78DF82A7B /* UINavigationBar+SBackgroundColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6384C48D4DFE63B045333697B9D98BA4 /* UINavigationBar+SBackgroundColor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC3F3666C9E982A5EE09CE782AFA3240 /* NSString+SValid.m in Sources */ = {isa = PBXBuildFile; fileRef = D18AA9D5E301F5C4580B5E5F77AE412D /* NSString+SValid.m */; };
+		D865237708AB133EBA28BB941369C671 /* UIColor+SColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D965E2D6D3A6933C29573F186BBD43 /* UIColor+SColor.m */; };
+		D92383B0D2E603568F417FCD1F7CCB23 /* NSString+SEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC58709485B43E49B121711A882D3EB /* NSString+SEmpty.m */; };
+		E11BA5A1A0BEF02E996A73D183A95F99 /* SLog.h in Headers */ = {isa = PBXBuildFile; fileRef = A859F04006BE2BFE5FD1647B841368D7 /* SLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FA3348844E92AFB5A5B0187A1E67EFAF /* UIColor+SColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BDC1ECDDBB96928759308E702EDDD4 /* UIColor+SColor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		760B45E6D295DE3D2B2EDE15B060380E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9445911430BAA76FF6EA4ED2128543E0;
+			remoteInfo = SToolsKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D965E2D6D3A6933C29573F186BBD43 /* UIColor+SColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SColor.m"; path = "Code/UIColor+SColor.m"; sourceTree = "<group>"; };
+		0F0F64B3A7AB8CF7414922A6655C707B /* Pods-SImageDrawKitDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SImageDrawKitDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		10A892662A7BFC671F332860100D2B41 /* SToolsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SToolsKit-umbrella.h"; sourceTree = "<group>"; };
+		18BDC1ECDDBB96928759308E702EDDD4 /* UIColor+SColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SColor.h"; path = "Code/UIColor+SColor.h"; sourceTree = "<group>"; };
+		1B34CE796928E9550B1812D6357A3C4E /* UIImage+SImageUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+SImageUtil.h"; path = "Code/UIImage+SImageUtil.h"; sourceTree = "<group>"; };
+		208BCB0705D04F0E1E2213F424BDF580 /* Pods-SImageDrawKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SImageDrawKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2597CE6C2B01BE3A7B84662D76F4E227 /* libPods-SImageDrawKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SImageDrawKitDemo.a"; path = "libPods-SImageDrawKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47459E59B0A3E3B730B27DFCC8319DAF /* NSString+SValid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SValid.h"; path = "Code/NSString+SValid.h"; sourceTree = "<group>"; };
+		4B5025F09A03C51DC03452B758C451FD /* libSToolsKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSToolsKit.a; path = libSToolsKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC58709485B43E49B121711A882D3EB /* NSString+SEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SEmpty.m"; path = "Code/NSString+SEmpty.m"; sourceTree = "<group>"; };
+		58B46CDEECFDBCDD36C4C4A1EEF3AE2B /* SToolsKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SToolsKit.h; path = Code/SToolsKit.h; sourceTree = "<group>"; };
+		5EEE8385D4716AD100364CFEFFE0FAAE /* UINavigationBar+SBackgroundColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+SBackgroundColor.m"; path = "Code/UINavigationBar+SBackgroundColor.m"; sourceTree = "<group>"; };
+		5F55F87DBAE44D841461E9D42E9663DB /* SToolsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SToolsKit.modulemap; sourceTree = "<group>"; };
+		5F75BD170A569FC38FF4757A3014F275 /* NSDate+STimeStamp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+STimeStamp.m"; path = "Code/NSDate+STimeStamp.m"; sourceTree = "<group>"; };
+		62829F9C0B1003B224BDD0E5A4B58692 /* NSDate+STimeStamp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+STimeStamp.h"; path = "Code/NSDate+STimeStamp.h"; sourceTree = "<group>"; };
+		62C1AE1F259BDE4BF81607407092C313 /* SToolsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SToolsKit-prefix.pch"; sourceTree = "<group>"; };
+		6384C48D4DFE63B045333697B9D98BA4 /* UINavigationBar+SBackgroundColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+SBackgroundColor.h"; path = "Code/UINavigationBar+SBackgroundColor.h"; sourceTree = "<group>"; };
+		650801137BDA4FD112FEC88B6A446C14 /* NSString+SEmpty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SEmpty.h"; path = "Code/NSString+SEmpty.h"; sourceTree = "<group>"; };
+		73B1B4432630DDD8F4590927ABC34E52 /* SToolsKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SToolsKit.xcconfig; sourceTree = "<group>"; };
+		8882F35F132C332FE24091F471ECEBE9 /* Pods-SImageDrawKitDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SImageDrawKitDemo-dummy.m"; sourceTree = "<group>"; };
+		9960995574E4DA87B15BFC51114A2861 /* UIImage+SImageUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SImageUtil.m"; path = "Code/UIImage+SImageUtil.m"; sourceTree = "<group>"; };
+		A859F04006BE2BFE5FD1647B841368D7 /* SLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLog.h; path = Code/SLog.h; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B7F55B3A66F0E23F4B066DC9A2290386 /* SToolsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SToolsKit-dummy.m"; sourceTree = "<group>"; };
+		BF83057B0483F884989B788C4B813CBD /* SCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCommon.h; path = Code/SCommon.h; sourceTree = "<group>"; };
+		D18AA9D5E301F5C4580B5E5F77AE412D /* NSString+SValid.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SValid.m"; path = "Code/NSString+SValid.m"; sourceTree = "<group>"; };
+		FA7394C4DBD968A83C7A871C40875768 /* Pods-SImageDrawKitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SImageDrawKitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD75BCFE936932539804CE83394880D1 /* Pods-SImageDrawKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SImageDrawKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041B044612C883A3BAEF219C7B25FF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582A7D03BC17FA7AD8E057B85C8A900A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CECC12B0C12E169D41F02E2B0EE376A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC024EF1AB69CB6F8EA2743A1E06FEDD /* Pods-SImageDrawKitDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				D9C35B14D06084449B60FCC5B13F8D38 /* Pods */,
+				C54A7785B0D030C7727E9B19B72CFCE4 /* Products */,
+				0CECC12B0C12E169D41F02E2B0EE376A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D1420504D92FF534863A26E85B53876 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F55F87DBAE44D841461E9D42E9663DB /* SToolsKit.modulemap */,
+				73B1B4432630DDD8F4590927ABC34E52 /* SToolsKit.xcconfig */,
+				B7F55B3A66F0E23F4B066DC9A2290386 /* SToolsKit-dummy.m */,
+				62C1AE1F259BDE4BF81607407092C313 /* SToolsKit-prefix.pch */,
+				10A892662A7BFC671F332860100D2B41 /* SToolsKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SToolsKit";
+			sourceTree = "<group>";
+		};
+		AC024EF1AB69CB6F8EA2743A1E06FEDD /* Pods-SImageDrawKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0F0F64B3A7AB8CF7414922A6655C707B /* Pods-SImageDrawKitDemo-acknowledgements.markdown */,
+				FA7394C4DBD968A83C7A871C40875768 /* Pods-SImageDrawKitDemo-acknowledgements.plist */,
+				8882F35F132C332FE24091F471ECEBE9 /* Pods-SImageDrawKitDemo-dummy.m */,
+				208BCB0705D04F0E1E2213F424BDF580 /* Pods-SImageDrawKitDemo.debug.xcconfig */,
+				FD75BCFE936932539804CE83394880D1 /* Pods-SImageDrawKitDemo.release.xcconfig */,
+			);
+			name = "Pods-SImageDrawKitDemo";
+			path = "Target Support Files/Pods-SImageDrawKitDemo";
+			sourceTree = "<group>";
+		};
+		B8F65BFBBAE5D602607F366D4C620864 /* SToolsKit */ = {
+			isa = PBXGroup;
+			children = (
+				62829F9C0B1003B224BDD0E5A4B58692 /* NSDate+STimeStamp.h */,
+				5F75BD170A569FC38FF4757A3014F275 /* NSDate+STimeStamp.m */,
+				650801137BDA4FD112FEC88B6A446C14 /* NSString+SEmpty.h */,
+				4FC58709485B43E49B121711A882D3EB /* NSString+SEmpty.m */,
+				47459E59B0A3E3B730B27DFCC8319DAF /* NSString+SValid.h */,
+				D18AA9D5E301F5C4580B5E5F77AE412D /* NSString+SValid.m */,
+				BF83057B0483F884989B788C4B813CBD /* SCommon.h */,
+				A859F04006BE2BFE5FD1647B841368D7 /* SLog.h */,
+				58B46CDEECFDBCDD36C4C4A1EEF3AE2B /* SToolsKit.h */,
+				18BDC1ECDDBB96928759308E702EDDD4 /* UIColor+SColor.h */,
+				00D965E2D6D3A6933C29573F186BBD43 /* UIColor+SColor.m */,
+				1B34CE796928E9550B1812D6357A3C4E /* UIImage+SImageUtil.h */,
+				9960995574E4DA87B15BFC51114A2861 /* UIImage+SImageUtil.m */,
+				6384C48D4DFE63B045333697B9D98BA4 /* UINavigationBar+SBackgroundColor.h */,
+				5EEE8385D4716AD100364CFEFFE0FAAE /* UINavigationBar+SBackgroundColor.m */,
+				9D1420504D92FF534863A26E85B53876 /* Support Files */,
+			);
+			name = SToolsKit;
+			path = SToolsKit;
+			sourceTree = "<group>";
+		};
+		C54A7785B0D030C7727E9B19B72CFCE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2597CE6C2B01BE3A7B84662D76F4E227 /* libPods-SImageDrawKitDemo.a */,
+				4B5025F09A03C51DC03452B758C451FD /* libSToolsKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9C35B14D06084449B60FCC5B13F8D38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8F65BFBBAE5D602607F366D4C620864 /* SToolsKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3994DAA01625D321825821F648A34E49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE6139E690D25BFE800E252EC1F4239 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9DBACA8BD0D0BC278C28274AD9C655 /* NSDate+STimeStamp.h in Headers */,
+				6C755B24E89A5B5FC7EFF47B64776AE0 /* NSString+SEmpty.h in Headers */,
+				3E0846CCC36B5359C87A37A8391BA97F /* NSString+SValid.h in Headers */,
+				822298382DB589F696564E5221F5F7F0 /* SCommon.h in Headers */,
+				E11BA5A1A0BEF02E996A73D183A95F99 /* SLog.h in Headers */,
+				3D4C2EDD9C7814FF5FD0630BF3C8AD06 /* SToolsKit-umbrella.h in Headers */,
+				05E4B2AA8537012496BBDC1FD7C78B8F /* SToolsKit.h in Headers */,
+				FA3348844E92AFB5A5B0187A1E67EFAF /* UIColor+SColor.h in Headers */,
+				829ECE26D43E81A138080CE7E14E1F25 /* UIImage+SImageUtil.h in Headers */,
+				C9F1D46D86775E0ED7D4C0B78DF82A7B /* UINavigationBar+SBackgroundColor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0055498E884937B1E68AB556B3582813 /* Pods-SImageDrawKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F4B9AA9C452DC4D8B31CB14D3940D3 /* Build configuration list for PBXNativeTarget "Pods-SImageDrawKitDemo" */;
+			buildPhases = (
+				3994DAA01625D321825821F648A34E49 /* Headers */,
+				E047CB158C8F7EC860A4BD63760E794E /* Sources */,
+				041B044612C883A3BAEF219C7B25FF3C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28DC259DBF965EC0EA3C02A0BCC8F814 /* PBXTargetDependency */,
+			);
+			name = "Pods-SImageDrawKitDemo";
+			productName = "Pods-SImageDrawKitDemo";
+			productReference = 2597CE6C2B01BE3A7B84662D76F4E227 /* libPods-SImageDrawKitDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9445911430BAA76FF6EA4ED2128543E0 /* SToolsKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3568EE5F5832AE469CA7BCE5133062A /* Build configuration list for PBXNativeTarget "SToolsKit" */;
+			buildPhases = (
+				EFE6139E690D25BFE800E252EC1F4239 /* Headers */,
+				0DE8455221E0E57E6C302D8303812518 /* Sources */,
+				582A7D03BC17FA7AD8E057B85C8A900A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SToolsKit;
+			productName = SToolsKit;
+			productReference = 4B5025F09A03C51DC03452B758C451FD /* libSToolsKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C54A7785B0D030C7727E9B19B72CFCE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0055498E884937B1E68AB556B3582813 /* Pods-SImageDrawKitDemo */,
+				9445911430BAA76FF6EA4ED2128543E0 /* SToolsKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DE8455221E0E57E6C302D8303812518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452BC5808E2BD9FB416CD5B9FF59F54C /* NSDate+STimeStamp.m in Sources */,
+				D92383B0D2E603568F417FCD1F7CCB23 /* NSString+SEmpty.m in Sources */,
+				CC3F3666C9E982A5EE09CE782AFA3240 /* NSString+SValid.m in Sources */,
+				48324DECF42230BB370F90B0C5E64A9D /* SToolsKit-dummy.m in Sources */,
+				D865237708AB133EBA28BB941369C671 /* UIColor+SColor.m in Sources */,
+				7AAFE5747CA0A2FFBA0001014175BFB6 /* UIImage+SImageUtil.m in Sources */,
+				9EF33BDAB198924848B8AEC4F2B23649 /* UINavigationBar+SBackgroundColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E047CB158C8F7EC860A4BD63760E794E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5413E8491F537CFB8F96428F4BEA454E /* Pods-SImageDrawKitDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28DC259DBF965EC0EA3C02A0BCC8F814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SToolsKit;
+			target = 9445911430BAA76FF6EA4ED2128543E0 /* SToolsKit */;
+			targetProxy = 760B45E6D295DE3D2B2EDE15B060380E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08B0394D5F17A9F046DC0719C25BA452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		75A65180532F6CCB6EE24EB3648082A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD75BCFE936932539804CE83394880D1 /* Pods-SImageDrawKitDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7CD888C8884EFDBAD1A46799BCD8463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B1B4432630DDD8F4590927ABC34E52 /* SToolsKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SToolsKit/SToolsKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/SToolsKit/SToolsKit.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SToolsKit;
+				PRODUCT_NAME = SToolsKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C071A11111E491E7C7C82BA60706A78E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B1B4432630DDD8F4590927ABC34E52 /* SToolsKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SToolsKit/SToolsKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/SToolsKit/SToolsKit.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SToolsKit;
+				PRODUCT_NAME = SToolsKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC8B2507C4451A0210FDBABC9E6B40C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 208BCB0705D04F0E1E2213F424BDF580 /* Pods-SImageDrawKitDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E82C56363775B4EF468FF2AD9A2F5414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B0394D5F17A9F046DC0719C25BA452 /* Debug */,
+				E82C56363775B4EF468FF2AD9A2F5414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F4B9AA9C452DC4D8B31CB14D3940D3 /* Build configuration list for PBXNativeTarget "Pods-SImageDrawKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC8B2507C4451A0210FDBABC9E6B40C2 /* Debug */,
+				75A65180532F6CCB6EE24EB3648082A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3568EE5F5832AE469CA7BCE5133062A /* Build configuration list for PBXNativeTarget "SToolsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CD888C8884EFDBAD1A46799BCD8463 /* Debug */,
+				C071A11111E491E7C7C82BA60706A78E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
